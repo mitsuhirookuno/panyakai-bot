@@ -5,6 +5,7 @@
   "author": "mitsuhirookuno <mitsuhiro.okuno@gmail.com>",
   "description": "panyakai",
   "dependencies": {
+    "cron": "^1.0.9",
     "hubot": "^2.15.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.2.1",
