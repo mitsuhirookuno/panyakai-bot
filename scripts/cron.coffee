@@ -1,5 +1,10 @@
+console.log("@@")
 cron = require('cron').CronJob
+console.log("@@@@")
 
 module.exports = (robot) ->
+  console.log("@@@@@@")
+  room_name = "general"
   new cron '*/10 * * * * *', () =>
-      robot.send {room: "#general"}, "朝会だお", null, true, "Asia/Tokyo"
+    robot.send {room: "#{room_name}", "@channel: 朝会の時間です!"}, null, true, "Asia/Tokyo"
+  console.log("@@@@@@@@")
