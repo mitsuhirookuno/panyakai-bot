@@ -6,5 +6,7 @@ module.exports = (robot) ->
   console.log("@@@@@@")
   room_name = "general"
   new cron '*/10 * * * * *', () =>
-    robot.send {room: "#{room_name}", "@channel: 朝会の時間です!"}, null, true, "Asia/Tokyo"
+    envelope = room: "channel"
+    robot.send {envelope, "channel: 朝会の時間です!"}
+    , null, true, "Asia/Tokyo"
   console.log("@@@@@@@@")
