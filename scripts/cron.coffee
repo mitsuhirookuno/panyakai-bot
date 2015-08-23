@@ -5,7 +5,7 @@ console.log("@@@@")
 module.exports = (robot) ->
   console.log("@@@@@@")
   job = new cron(
-    cronTime: "10 10101010101010101010 * * * *"
+    cronTime: "10 10 * * * *"
     onTick: ->
       envelope = room: "general"
       robot.send envelope, "@channel: テストです!"
