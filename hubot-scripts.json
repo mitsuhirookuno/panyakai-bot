@@ -2,7 +2,6 @@
   "base64.coffee",
   "coin.coffee",
   "dice.coffee",
-  "git-help.coffee",
   "ruby.coffee",
   "rubygems.coffee",
   "gemwhois.coffee"
