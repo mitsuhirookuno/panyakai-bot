@@ -8,5 +8,6 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
-  "hubot-weather-ja"
+  "hubot-weather-ja",
+  "hubot-bijin-tokei"
 ]
