@@ -9,5 +9,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-weather-ja",
-  "hubot-bijin-tokei"
+  "hubot-bijin-tokei",
+  "hubot-twitter-search"
 ]
