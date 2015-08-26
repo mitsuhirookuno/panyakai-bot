@@ -1,2 +1,7 @@
 [
+  "base64.coffee",
+  "coin.coffee",
+  "ruby.coffee",
+  "rubygems.coffee",
+  "gemwhois.coffee"
 ]
