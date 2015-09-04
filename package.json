@@ -23,7 +23,8 @@
     "hubot-slack": "^3.3.0",
     "hubot-sushiyuki": "naoya/hubot-sushiyuki",
     "hubot-twitter-search": "^1.0.3",
-    "hubot-weather-ja": "ryurock/hubot-weather-ja"
+    "hubot-weather-ja": "ryurock/hubot-weather-ja",
+    "cheerio-httpcli": "0.3.3"
   },
   "engines": {
     "node": "0.10.x"
