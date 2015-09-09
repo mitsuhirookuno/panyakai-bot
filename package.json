@@ -24,7 +24,8 @@
     "hubot-sushiyuki": "naoya/hubot-sushiyuki",
     "hubot-twitter-search": "^1.0.3",
     "hubot-weather-ja": "ryurock/hubot-weather-ja",
-    "cheerio-httpcli": "0.3.3"
+    "cheerio-httpcli": "0.3.3",
+    "githubot": "1.0.0"
   },
   "engines": {
     "node": "0.10.x"
