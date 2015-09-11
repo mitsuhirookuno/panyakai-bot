@@ -38,7 +38,7 @@ module.exports = (robot) ->
 		base = msg.match[4]
 		environment = msg.match[5]
 		
-		url = "#{url_api_base}/repos/qwintet-dev/#{repo}/pulls" #GitHubAPIのURL
+		url = "#{url_api_base}/repos/tsumikiinc/#{repo}/pulls" #GitHubAPIのURL
 		
 		account_name = msg.envelope.user.name || "anonymous" #このスクリプトを呼び出した人のSlackアカウント名
 		channel_name = msg.envelope.room || "anonymous" #このスクリプトを呼び出したSlackのChannel
