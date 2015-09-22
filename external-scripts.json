@@ -11,5 +11,6 @@
   "hubot-weather-ja",
   "hubot-bijin-tokei",
   "hubot-misawa",
-  "hubot-sushiyuki"
+  "hubot-sushiyuki",
+  "hubot-github-create-pullrequests"
 ]

@@ -5,10 +5,13 @@
   "author": "mitsuhirookuno <mitsuhiro.okuno@gmail.com>",
   "description": "panyakai",
   "dependencies": {
+    "cheerio-httpcli": "0.3.3",
     "cron": "^1.0.9",
+    "githubot": "1.0.0",
     "hubot": "^2.15.0",
     "hubot-bijin-tokei": "succi0303/hubot-bijin-tokei",
     "hubot-diagnostics": "0.0.1",
+    "hubot-github-create-pullrequests": "^1.1.1",
     "hubot-google-images": "^0.2.1",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
@@ -23,9 +26,7 @@
     "hubot-slack": "^3.3.0",
     "hubot-sushiyuki": "naoya/hubot-sushiyuki",
     "hubot-twitter-search": "^1.0.3",
-    "hubot-weather-ja": "ryurock/hubot-weather-ja",
-    "cheerio-httpcli": "0.3.3",
-    "githubot": "1.0.0"
+    "hubot-weather-ja": "ryurock/hubot-weather-ja"
   },
   "engines": {
     "node": "0.10.x"

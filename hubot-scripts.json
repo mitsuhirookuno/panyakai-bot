@@ -4,7 +4,5 @@
   "dice.coffee",
   "ruby.coffee",
   "rubygems.coffee",
-  "gemwhois.coffee",
-  "github-merge.coffee",
-  "github-pulls.coffee"
+  "gemwhois.coffee"
 ]
